@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="121dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786">
+
+        <Button
+            android:id="@+id/recommendations"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/colorGray"
+            android:elevation="0dp"
+            android:text="@string/recommendations"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView" -->
+    </RelativeLayout>
+    <!--
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:text="CINEMA CITY"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recommendations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="50dp"
+        android:text="Multiplex cinema"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recommendations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+-->
+
+
+</android.support.constraint.ConstraintLayout>

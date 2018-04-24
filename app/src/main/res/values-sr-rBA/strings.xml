@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CinemaCity</string>
+    <string name="action_settings">Podesavanja</string>
+    <string name="welcome_message">CINEMA CITY</string>
+    <string name="multiplex">Multiplex kino</string>
+    <string name="language">EN </string>
+    <string name="recommendations">Preporuke</string>
+    <string name="reservations">Rezervacije</string>
+    <string name="title_activity_recommendation">Preporucujemo</string>
+</resources>
